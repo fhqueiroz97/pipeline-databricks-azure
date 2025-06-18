@@ -1,0 +1,9 @@
+{
+	"name": "senaidatabricks",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1b9cee91-2d01-45cd-8756-f02fc0057e03",
+		"tenantId": "11dbbfe2-89b8-4549-be10-cec364e59551"
+	}
+}
