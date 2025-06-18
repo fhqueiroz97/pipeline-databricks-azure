@@ -312,10 +312,6 @@ monitorar_silver_layer()
 # MAGIC - Validação de qualidade automatizada
 # MAGIC - Otimização com formato Delta e particionamento
 # MAGIC
-# MAGIC ### 🚀 Próximos passos:
-# MAGIC - Executar notebook **03_Gold_Layer_Analytics**
-# MAGIC - Criar agregações para análise de negócio
-# MAGIC - Desenvolver métricas e KPIs
 # MAGIC
 # MAGIC ### 📋 Boas Práticas Aplicadas:
 # MAGIC - **Validação de qualidade**: Verificações automáticas
