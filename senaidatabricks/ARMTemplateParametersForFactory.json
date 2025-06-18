@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "senaidatabricks"
+		},
+		"databricks_senai_accessToken": {
+			"value": ""
+		},
+		"databricks_senai_properties_typeProperties_existingClusterId": {
+			"value": "0615-201909-x1i4eux4"
+		}
+	}
+}
