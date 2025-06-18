@@ -13,7 +13,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Repos/senaipr31@fiap.com.br/pipeline-databricks-azure/src/bronze_ingestao_aprimorada"
+				},
+				"linkedServiceName": {
+					"referenceName": "databricks_senai",
+					"type": "LinkedServiceReference"
+				}
 			},
 			{
 				"name": "silver_transformacao",
@@ -33,7 +40,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Repos/senaipr31@fiap.com.br/pipeline-databricks-azure/src/silver_transformacao_enriquecida"
+				},
+				"linkedServiceName": {
+					"referenceName": "databricks_senai",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"annotations": []
